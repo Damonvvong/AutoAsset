@@ -34,7 +34,7 @@ AutoAsset [FILE1] [FILE1_BACKUP] [FILE2]
 
 > The addition, deletion, and modification of the pictures in the `FILE1` by the designer are incrementally synchronized to `FILE2` when Xcode is compiled.
 
-![autoassets](http://ohe8u75p8.bkt.clouddn.com/autoassets.gif)
+![autoassets](./autoassets.gif)
 
 ## Authors
 
