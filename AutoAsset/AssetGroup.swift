@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  AssetGroup.swift
 //  AutoAsset
 //
 //  Created by damonwong on 2018/4/7.

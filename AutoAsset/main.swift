@@ -41,7 +41,7 @@ guard FileManager.default.fileExists(atPath: outputAssetsFilePath) else {
 }
 
 guard outputAssetsFilePath.hasSuffix(".xcassets") else {
-    print("输出文件不是一个 .xcassets  bundle 文件夹")
+    print("输出文件不是一个 Asset Catalog 文件夹")
     exit(1)
 }
 
@@ -171,8 +171,6 @@ for assetGroup in assetsGroupMap.values {
     }
 
 }
-
-ShellHelper.execute("pwd")
 ShellHelper.execute("cp","-r","\(inputPath)/","\(inputBackPath)")
 
 
